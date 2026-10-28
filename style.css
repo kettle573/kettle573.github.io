@@ -1,0 +1,24 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f8f8f8;
+    color: #222;
+
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+
+    line-height: 1.7;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+}
