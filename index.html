@@ -5,26 +5,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Website</title>
+    <title>James Shearer - Home</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Welcome to My Website</h1>
-        <p>Physics, philosophy, writing and more.</p>
+    <nav class="site-nav">
+        <div class="container nav-inner">
+            <a href="index.html" class="site-name">My Website</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#writing">Writing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <p class="eyebrow"><strong>JAMES SHEARER</strong></p>
+            <p class="eyebrow">Physics &middot; Philosophy &middot; Opinions</p>
+            <h1>Welcome to My Website!</h1>
+            <p class="lead">
+                Notes, essays and ideas about stuff - and then some more.
+            </p>
+            <a href="#writing" class="button">Read my writing</a>
+        </div>
     </header>
 
-    <main>
-        <h2>About Me</h2>
+    <main class="container">
 
-        <p>
-            This is my personal website.
-            I'll be publishing articles and projects here.
-        </p>
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p>
+                Hey! I'm studying <strong>Physics and Philosophy</strong> at the
+                <strong>University of Oxford</strong>, a degree which works right
+                at the intersection of both subjects, covering philosophy of
+                spacetime, mathematics, as well as more traditional topics such as
+                epistemology and free will.
+            </p>
+            <p>
+                I've set up this site because I want to do a bit of writing &mdash;
+                working through ideas from my studies, and anything else that catches
+                my interest along the way.
+            </p>
+        </section>
+
+        <section id="writing">
+            <h2>Writing</h2>
+            <div class="post-list">
+                <article class="post placeholder">
+                    <h3>Coming soon</h3>
+                    <p>My first pieces are on their way. Check back shortly.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Contact</h2>
+            <p>
+                Find me on GitHub at
+                <a href="https://github.com/kettle573">kettle573</a>.
+            </p>
+            <p>
+                Find me on LinkedIn as
+                <a href="https://www.linkedin.com/in/james-n-shearer/">james-n-shearer</a>.
+            </p>
+        </section>
+
     </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>
+                &copy; 2026 &middot; Built with HTML, CSS and
+                possibly some small help from Claude
+            </p>
+        </div>
+    </footer>
 
 </body>
 
